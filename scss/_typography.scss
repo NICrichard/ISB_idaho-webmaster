@@ -1,0 +1,35 @@
+.heading-sm {
+  color      : $gray-base;
+  font-size  : 14px;
+  line-height: 14px;
+  font-weight: bold;
+}
+
+.heading-md {
+  font-size  : 30px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+h2, h1.entry-title, h1.page-title {
+  font-family: $font-family-serif;
+  color: #054E3A;
+}
+
+h1.entry-title {
+  margin: 0px 0px 30px;
+}
+
+h3.entry-title {
+  font-family: $font-family-sans-serif;
+  margin-bottom: 0px;
+}
+
+.content-area .entry-summary {
+  margin-top: 5px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}

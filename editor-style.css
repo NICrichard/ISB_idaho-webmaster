@@ -1,0 +1,6 @@
+@import 'style.css';
+
+body.mce-content-body, html {
+  background : #fff;
+  padding: 15px !important;
+}

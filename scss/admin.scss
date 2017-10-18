@@ -1,0 +1,84 @@
+// Core variables and mixins
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+$icon-font-path: "../fonts/";
+@import "bootstrap/glyphicons";
+
+.mce-glyphicon-container > .mce-reset > .mce-container-body {
+	padding    : 15px;
+	width      : 480px !important;
+	word-wrap  : break-word;
+	white-space: normal;
+	overflow-y : scroll !important;
+
+	.mce-container {
+		width   : auto !important;
+		position: relative;
+		height  : auto !important;
+	}
+
+	.mce-container-body {
+		height     : auto !important;
+		width      : auto !important;
+		word-wrap  : break-word;
+		white-space: normal;
+		overflow   : visible;
+	}
+}
+
+.mce-glyphicon-container .mce-button-glyphicon {
+	width   : 16px !important;
+	height  : 16px !important;
+	margin  : 5px !important;
+	padding : 6px !important;
+	display : inline-block !important;
+	position: relative !important;
+	top     : auto !important;
+	left    : auto !important;
+
+	button {
+		padding : 0 !important;
+		width   : 16px !important;
+		height  : 16px !important;
+		position: relative !important;
+	}
+}
+
+.mce-ico.mce-i-info:before {
+	content    : "\f348";
+	font-family: "dashicons";
+	font-size  : 18px;
+}
+
+.sow-icon-glyphicons {
+	position               : relative !important;
+	top                    : 1px;
+	display                : inline-block;
+	font-family            : "Glyphicons" !important;
+	font-style             : normal;
+	font-weight            : normal;
+	line-height            : 1;
+	-webkit-font-smoothing : antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sow-icon-glyphicons[data-sow-icon]:before {
+	content: attr(data-sow-icon);
+}
+
+.sow-icon-glyphicons_social {
+	font-family            : "Glyphicons Social" !important;
+	position               : relative !important;
+	top                    : 1px;
+	display                : inline-block;
+	font-style             : normal;
+	font-weight            : normal;
+	line-height            : 1;
+	-webkit-font-smoothing : antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.sow-icon-glyphicons_social[data-sow-icon]:before {
+	content: attr(data-sow-icon);
+}
+
